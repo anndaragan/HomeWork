@@ -1,0 +1,32 @@
+h1 {
+    color: red;
+}
+
+.container	{
+    background:	orange;
+    width:	100%;
+}
+
+.left	{
+    width:	45%;
+    background-color:	blue;
+    float: left;
+    padding:	10px;
+    margin: 5%;
+}
+
+.right	{
+    width:	30%;
+    background-color:	green;
+    float:	right;
+    padding:	10px;
+    margin: 5%;
+}
+.addingToList{
+background-color: aqua;
+    padding: 10px;
+}
+.addStuff{
+    background-color: bisque;
+    float: right;
+}
