@@ -1,33 +1,37 @@
+
 .container	{
-    background: pink;
-    width:	100%;
-    margin: auto;
+    margin:auto -8px;
+    width: auto;
+    height: 598px;
+    background-color: #f6f6f6;
 }
 
 .left	{
     width:	600px;
     height: 300px;
-    background-color:	#eaf4da;
+    background-color:	#ffffff;
+    background-image: url(http://i.imgur.com/DwygFyZ.png);
+    background-repeat: repeat;
     float: left;
     margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right: 10px;
-    border: 2px solid #545f41;
+    border: 2px solid #c0c0c0;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
 }
 
 .right	{
-    width:	300px;
-    height: 300px;
-    background-color:	green;
+    width:	30opx;
+    height: auto;
+    background-color:	#f3f3f3;
     display: inline-block;
     margin-left: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right: 20px;
-    border: 2px solid #000000;
+    border: 2px solid #c0c0c0;
     border-bottom-right-radius: 8px;
     border-top-right-radius: 8px;
 }
@@ -35,83 +39,182 @@
 .lblockForAddingStuffToCart {
     width: 600px;
     height: 40px;
-    background-color: #8c9f6d;
+    background-color: #f3f3f3;
     border-top-left-radius: 8px;
 }
 
 .llineToAdd {
     width: 485px;
     height: 25px;
-    background-color: bisque;
+    background-color: #ffffff;
     margin: auto;
     padding-left: 15px;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
-    border-left: 2px solid #545f41;
-    border-right: 2px solid #545f41;
-    border-bottom: 2px solid #545f41;
+    border-left: 2px solid #c0c0c0;
+    border-right: 2px solid #c0c0c0;
+    border-bottom: 2px solid #c0c0c0;
+    font-size: 13px;
 }
 
 .lbuttonToAdd {
     width: 40px;
     height: 22px;
-    background-color: #545f41;
+    background-color: #d3d3d3;
     float: right;
     padding-right: 15px;
     padding-left: 30px;
     padding-top: 3px;
+    font-size: 15px;
+    border-left: 2px solid #c0c0c0;
 }
 
 .ldecorBlock {
     height: 50px;
-    width: 500px;
-    background-image: url(http://imgur.com/DOKFxmu);
+    width: 600px;
+    background-image: url(http://i.imgur.com/wQurcj1.png);
     background-repeat: repeat-x;
 }
 
 .loneStuffBlock {
-    width: 591px;
-    height: 30px;
-    background-color: #dcedc2;
+    width: 571px;
+    height: auto;
+    padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 4px;
     margin-right: 4px;
     border-radius: 4px;
+    border-bottom: 1px solid #d3d3d3;
+    border-top: 1px solid #d3d3d3;
 }
 
-.ltwoStuffBlock {
-    width: 591px;
-    height: 30px;
-    background-color: #dcedc2;
-    margin-bottom: 10px;
-    margin-left: 4px;
-    margin-right: 4px;
-    border-radius: 4px;
+.lblockForButtons {
+    width: 420px;
+    height: auto;
+    float: right
 }
 
-.lthreeStuffBlock {
-    width: 591px;
-    height: 30px;
-    background-color: #dcedc2;
-    margin-bottom: 10px;
-    margin-left: 4px;
-    margin-right: 4px;
-    border-radius: 4px;
+.lblockForActWQuantity {
+    width: auto;
+    height: auto;
+    float: left;
+}
+
+.lbuttonMinus {
+    width: 15px;
+    height: 15px;
+    background-color: #e46161;
+    padding-left: 12px;
+    padding-right: 2px;
+    float: left;
+    color: #893a3a;
+    margin-top: 1px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border-bottom: 2px solid #893a3a;
+    border-right: 2px solid #893a3a;
+}
+
+.lbuttonPlus {
+    width: 15px;
+    height: 15px;
+    background-color: #61e46a;
+    padding-left: 11px;
+    padding-right: 3px;
+    float: right;
+    color: #3a8940;
+    margin-top: 1px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border-bottom: 2px solid #3a8940;
+    border-right: 2px solid #3a8940;
+}
+
+.lblockForNotOrBought {
+    width: auto;
+    height: auto;
+    float: right;
+}
+
+.lbuttonBought {
+    width: auto;
+    height: auto;
+    float: left;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 15px;
+    font-size: 14px;
+    border-bottom: 2px solid #d3d3d3;
+    border-right: 2px solid #d3d3d3;
+}
+
+.lbuttonDelete {
+    width: auto;
+    height: auto;
+    float: right;
+    background-color: #893a3a;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: cursive;
+    color: #522323;
+    margin-left: 20px;
+    border-bottom: 2px solid #522323;
+    border-right: 2px solid #522323;
+}
+
+.rblockLeft {
+    width: 300px;
+    height: auto;
+    border-bottom: 2px double #d3d3d3;
+    padding-left: 5px;
+    padding-top: 5px;
+    border-top: 1px solid #d3d3d3;
+    margin-top: 10px;
+    background-image: url(http://i.imgur.com/DwygFyZ.png);
+    background-repeat: repeat;
+    font-size: 17px;
+}
+
+.rleftStuff {
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+
+.rnamesAndQuantityOfLeft {
+    display: inline-block;
+    background-color: #ffffff;
+    background-image: url(http://i.imgur.com/DwygFyZ.png);
+    background-repeat: repeat;
+    padding: 3px;
+    border-radius: 10px;
+    font-size: 13px;
+    border: 1px solid #d3d3d3;
+}
+
+.rQuantity {
+    float: right;
+    background-color: orange;
+    border-radius: 20px;
+    padding: 3px;
+    margin-left: 10px;
+    color: white;
+    border-bottom: 2px solid darkorange;
+    border-right: 2px solid darkorange;
 }
 
 
 .rblockBought {
     width: 300px;
-    height: 149px;
-    background-color: bisque;
-    border-bottom: 2px solid red;
-    border-top-right-radius: 8px;
-}
-
-.rblockLeft {
-    width: 300px;
-    height: 149px;
-    background-color: bisque;
-    border-bottom-right-radius: 8px;
+    height: auto;
+    background-image: url(http://i.imgur.com/DwygFyZ.png);
+    background-repeat: repeat;
+    padding-left: 5px;
+    padding-top: 5px;
+    border-bottom: 1px solid #d3d3d3;
+    margin-bottom: 10px;
+    font-size: 17px;
 }
