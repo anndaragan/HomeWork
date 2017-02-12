@@ -4,6 +4,7 @@
     width: auto;
     height: 598px;
     background-color: #f6f6f6;
+    position: relative;
 }
 
 .left	{
@@ -217,4 +218,53 @@
     border-bottom: 1px solid #d3d3d3;
     margin-bottom: 10px;
     font-size: 17px;
+}
+
+.badge {
+    position: fixed;
+    width: 150px;
+    height: 140px;
+    padding-left: 50px;
+    
+    padding-top: 15px;
+    
+    transition:	all	1s	ease;
+    
+    left: 20px;
+    bottom: -100px;
+    
+    background-color: #af00da;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.buy-list {
+    font-family: cursive;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.badge:hover {
+    background-color: #4c00da;
+    transform: translateY(-100px);
+}
+
+.textOfBadge {
+    font-family: cursive;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+@media print {
+    .badge {
+        background-color: white;
+        border: 1px solid black;
+        bottom: 100px;
+    }
+    .buy-list {
+        display: none;
+    }
+    .textOfBadge {
+        color: black;
+    }
 }
